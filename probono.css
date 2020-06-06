@@ -1,0 +1,150 @@
+.header_section{
+    background-color: #1c1c1c;
+    color: #d5d5d5;
+    line-height: 5em;   
+}
+.header_text{
+    display: inline-block;
+    padding-left: 35%;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    font-weight: bold;
+    font-family: Syncopate,Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    
+    
+}
+.nav_section{
+    background-color: white;
+    color: #d5d5d5;
+    line-height: 3em;
+}
+.navbar{
+    background-color: white !important;
+}
+.probono_clinic{
+    padding: 120px 210px;
+    overflow: hidden; 
+}
+.container_probono_clinic{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.selection-title{
+    padding-bottom: 30px;
+}
+.selection-title h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+h2{
+    font-family: "Raleway" ,sans-serif;
+}
+
+footer h2,h3{
+    color: #fff;
+}
+footer h2{
+    font-size: 18px;
+}
+.footer_top{
+    background: #111;
+    padding: 80px 0;
+}
+.segment-one h3{
+    font-family: Courgette;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+.segment-two h2{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.segment-two h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+}
+.segment-two ul li a{
+    color: #999;
+    text-decoration: none;
+}
+.segment-three h2{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.segment-three h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+.segment-four h2{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.segment-four h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-four form input[type=submit]{
+    background: #c65039;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -1px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer_bottom_text{
+    text-align: center;
+    background: #000;
+    line-height: 75px; 
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .md-mb-30{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-with: 767px){
+    .sm-mb-30{
+        margin-bottom: 30px;
+    }
+    .footer_top{
+        padding: 50px 0;
+    }
+}
