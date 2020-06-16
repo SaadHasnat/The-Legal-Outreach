@@ -47,6 +47,10 @@
 h2{
     font-family: "Raleway" ,sans-serif;
 }
+p{
+    color: #999;
+    line-height: 25px;
+}
 
 footer h2,h3{
     color: #fff;

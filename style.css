@@ -23,13 +23,20 @@
     background-color: white !important;
 }
 .container_intro h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     background-color: aqua;
 }
 
 .intro_text p{
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #000;
+    font-family: Courgette;
+    font-size: 18px;
 }
 
 h2{
@@ -41,34 +48,33 @@ p{
     line-height: 25px;
 }
 
-.counter{
-    background-image: linear-gradient(rgba(49,0,225,0.8),rgba(132,5,29,0.8)),url(banner.jpg);
+body{
+    background-image: url(banner.jpg);
     background-size: cover;
-    background-position: center;
 }
-.counter_section{
-    margin: 10% auto;
-    color: #fff;
+.stat{
+    background: #121212;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    background-attachment: fixed;
+    margin-top: 209px;
+    margin-bottom: 209px;
 }
-.icon_box{
-    border: 1px solid #fff;
-    height: 100px;
-    width: 100px;
-    margin: 20px auto;
-    transform: rotate(45deg);
+
+.stat i{
+    font-size: 50px;
 }
-.icon_box .fa{
-    font-size: 40px;
-    margin: 25px auto;
-    color: #ffc800;
-    transform: rotate(-45deg);
+.stat-items h2{
+    font-weight: bold;
+    font-size: 42px;
+    color: darkorange;
 }
-.counter-box p{
-    font-size: 20px;
+.stat p{
+    font-weight: bold;
+    letter-spacing: 1px;
 }
-.counter-box .counter_text{
-    font-size: 80px;
-}
+
 
 footer h2,h3{
     color: #fff;

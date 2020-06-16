@@ -10,10 +10,14 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/botstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
   <!--Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+ 
 
   <title>The Legal Outreach</title>
   
@@ -34,8 +38,7 @@
   <section class="nav_section">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -73,27 +76,39 @@
     </div>
   </section>
 
-<!-- <section class="counter">
-  <div class="container counter_section">
-  <div class="row text-center">
-    <div class="col-md-3 counter-box">
-      <div class="icon_box"><i class="fa fa-handshake-o"</i></div>
-      <p class="counter_text">150</p>
-      <p>Law Firms on Board</p>
+  <section class="stat" id="stat">
+    <div class="content-box">
+        <br><br>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="stat-items">
+                        <i class="fa fa-handshake-o"></i>
+                        <h2><span class="counter text-center">3390</span> <span>+</span>
+                        </h2>
+                        <p>LAW FIRMS ON BOARD</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-items">
+                        <i class="fa fa-envelope-o"></i>
+                        <h2><span class="counter text-center">3245</span> <span>+</span>
+                        </h2>
+                        <p>TOTAL APPLICATIONS RECEIVED</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-items">
+                        <i class="fa fa-gavel"></i>
+                        <h2><span class="counter text-center">7236</span> <span>+</span>
+                        </h2>
+                        <p>TOTAL PLACEMENTS OFFERED</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-3 counter-box">
-      <div class="icon_box"><i class="fa fa-handshake-o"</i></div>
-      <p class="counter_text">150</p>
-      <p>Law Firms on Board</p>
-    </div>
-    <div class="col-md-3 counter-box">
-      <div class="icon_box"><i class="fa fa-handshake-o"</i></div>
-      <p class="counter_text">150</p>
-      <p>Law Firms on Board</p>
-    </div>
-  </div>
-</div>
-</section> -->
+</section>
 
   <footer>
     <div class="footer_top">
@@ -141,6 +156,22 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="jquery.waypoints.min.js"></script>
+  <script src="jquery.counterup.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+  <script>
+      jQuery(document).ready(funtion( $ )
+      {
+          $('.counter').counterUp({
+          delay: 10,
+          time: 1000
+          });
+
+      });
+  </script>
+
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
